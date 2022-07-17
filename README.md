@@ -11,9 +11,9 @@ Install the latest version from Github:
 
 ## Usage
 
-    from simple_telebot import *
+    from simple_telebot import initBot, sendMessage
     bot, chat_id = initBot(id_file)
-    sentMessage(message)
+    sentMessage(message,bot,chat_id)
 
 ### Versions
 
