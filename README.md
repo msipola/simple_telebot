@@ -1,6 +1,8 @@
 # simple_telebot
 Simple to use wrapper for telepot
 
+By default this package uses [TimeToCheckBot](http://t.me/TimeToCheckBot). Add this telegram bot and press 'START'. After this you should check your Telegram ID using [userinfobot](https://t.me/userinfobot). Save your ID to a file.
+
 ## Install
 
 Install the latest version from Github:

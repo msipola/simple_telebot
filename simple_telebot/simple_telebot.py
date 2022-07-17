@@ -2,6 +2,8 @@ def initBot(id_file):
     """/
     Initiate the bot with the id_file. The if_file is a file containing your Telegram id. Returns the bot and chat_id.
     """
+    import telepot
+    import re
     bot = telepot.Bot('5544476478:AAEUgpwQAZtX2B4zYxWFHb7xHM85kAG_kS0')
     
     with open(id_file) as f:
