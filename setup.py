@@ -14,7 +14,6 @@ setuptools.setup(
   url='https://github.com/msipola/simple_telebot',
   packages=setuptools.find_packages(),
   install_requires=[
-    'telepot',
-    're',
+    'telepot'
   ],
 )
