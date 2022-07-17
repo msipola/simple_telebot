@@ -18,5 +18,7 @@ def sendMessage(message):
     """/
     Send a message to the bot. Takes as an argument a string you want to send. Before running this function, you should initiate the bot with initBot().
     """
+    global bot
+    global chat_id
     bot.sendMessage(text=message,chat_id=chat_id)
     return 'Message sent successfully!'
