@@ -20,5 +20,6 @@ def sendMessage(message):
     """
     global bot
     global chat_id
+    bot = bot
     bot.sendMessage(text=message,chat_id=chat_id)
     return 'Message sent successfully!'
